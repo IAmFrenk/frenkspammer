@@ -1,1 +1,4 @@
-MongoSaver.class
+com\example\project\EmailSender.class
+com\example\project\MongoSaver.class
+com\example\project\EmailSender$2.class
+com\example\project\EmailSender$1.class
