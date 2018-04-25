@@ -1,3 +1,5 @@
+package com.example.project;
+
 import com.mongodb.*;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
