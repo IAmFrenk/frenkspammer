@@ -1,19 +1,30 @@
 # This references an OpenJDK container from the
-# Docker Hub https://hub.docker.com/_/openjdk/
-# Read more about containers on our dev center
-# http://devcenter.wercker.com/docs/containers/index.html
+# # Docker Hub https://hub.docker.com/_/openjdk/
+# # Read more about containers on our dev center
+# # http://devcenter.wercker.com/docs/containers/index.html
 box: openjdk:8-jdk
-
-# This is the build pipeline. Pipelines are the core of wercker
-# Read more about pipelines on our dev center
-# http://devcenter.wercker.com/docs/pipelines/index.html
+#
+# # This is the build pipeline. Pipelines are the core of wercker
+# # Read more about pipelines on our dev center
+# # http://devcenter.wercker.com/docs/pipelines/index.html
 build:
-    # Steps make up the actions in your pipeline
-    # Read more about steps on our dev center:
-    # http://devcenter.wercker.com/docs/steps/index.html
+#     # Steps make up the actions in your pipeline
+#         # Read more about steps on our dev center:
+#             # http://devcenter.wercker.com/docs/steps/index.html
+        steps:
+#                   # https://github.com/wercker/step-maven
+                - java/maven:
+                        goals: install
+                        cache_repo: true
+                        version: 3.5.3
+
+sonar:
+# Steps make up the actions in your pipeline
+# Read more about steps on our dev center:
+# http://devcenter.wercker.com/docs/steps/index.html
   steps:
-    # https://github.com/wercker/step-maven
-    - java/maven:
-      goals: install
-      cache_repo: true
-      version: 3.5.2
+  # https://github.com/wercker/step-maven
+     - wercker/maven:
+     goals: clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar -Dmaven.test.failure.ignore=true -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=IAmFrenk -Dsonar.login=e3e8aed8002c0ea08089a4026d53fe9513561376
+     cache_repo: true
+     version: 3.5.2
