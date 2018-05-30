@@ -47,8 +47,8 @@
       <file leaf-file-name="wercker.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wercker.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            <state relative-caret-position="567">
+              <caret line="27" column="239" lean-forward="false" selection-start-line="27" selection-start-column="239" selection-end-line="27" selection-end-column="239" />
               <folding />
             </state>
           </provider>
@@ -264,12 +264,12 @@
       <workItem from="1526460011851" duration="40000" />
       <workItem from="1526460193678" duration="711000" />
       <workItem from="1526464437909" duration="950000" />
-      <workItem from="1527667818685" duration="887000" />
+      <workItem from="1527667818685" duration="999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12615000" />
+    <option name="totallyTimeSpent" value="12727000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -476,8 +476,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wercker.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="567">
+          <caret line="27" column="239" lean-forward="false" selection-start-line="27" selection-start-column="239" selection-end-line="27" selection-end-column="239" />
           <folding />
         </state>
       </provider>
