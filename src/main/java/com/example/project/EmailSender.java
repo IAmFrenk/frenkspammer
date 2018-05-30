@@ -49,7 +49,7 @@ public class EmailSender {
 			}
 			Transport.send(message);
 
-			com.example.project.MongoSaver.saveEmail(to, "spammer@spamer.com", subject, messageBody, asHtml);
+			com.example.project.MongoSaver.saveEmail(to, "spammer@spamer.com", subject, messageBody, asHtml, username, password);
 
 		} catch (MessagingException e) {
 
