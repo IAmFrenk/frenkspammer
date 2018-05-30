@@ -16,22 +16,22 @@ public class EmailSender {
 
 	}
 
-	public static void sendEmail(String subject, String to, String messageBody, boolean asHtml) throws MessagingException {
+	public static void sendEmail(String subject, String to, String messageBody, boolean asHtml, String username, String password) throws MessagingException {
 
 		Properties props = new Properties();
 		props.put("mail.smtp.host", "smtp.mailtrap.io");
 		props.put("mail.smtp.port", "2525");
 		props.put("mail.smtp.auth", "true");
 
-		final String username = "ff74e8554cff2e";
-		final String testPwd = "ab5e68d5c8a581";
+//		final String username = "ff74e8554cff2e";
+//		final String testPwd = "ab5e68d5c8a581";
 
 		Session session = Session.getInstance(props,
 				  new javax.mail.Authenticator() {
 					@Override
 					protected PasswordAuthentication getPasswordAuthentication() {
 
-						return new PasswordAuthentication(username, testPwd);
+						return new PasswordAuthentication(username, password);
 					}
 				  });
 		try {
@@ -57,21 +57,21 @@ public class EmailSender {
 		}
 	}
 
-	public static void sendEmail(String subject, String[] toList, String messageBody, boolean asHtml) throws MessagingException {
+	public static void sendEmail(String subject, String[] toList, String messageBody, boolean asHtml, String username, String password) throws MessagingException {
 
 		Properties props = new Properties();
 		props.put("mail.smtp.host", "smtp.mailtrap.io");
 		props.put("mail.smtp.port", "2525");
 		props.put("mail.smtp.auth", "true");
 
-		final String username = "ff74e8554cff2e";
-		final String testPwd = "ab5e68d5c8a581";
+//		final String username = "ff74e8554cff2e";
+//		final String password = "ab5e68d5c8a581";
 
 		Session session = Session.getInstance(props,
 				  new javax.mail.Authenticator() {
 					@Override
 					protected PasswordAuthentication getPasswordAuthentication() {
-						return new PasswordAuthentication(username, testPwd);
+						return new PasswordAuthentication(username, password);
 					}
 				  });
 		try {

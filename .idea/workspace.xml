@@ -15,17 +15,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="EmailSender.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EmailSender.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/project/EmailSender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="-129">
+              <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#829#1020#0" expanded="true" />
-                <element signature="e#1019#1020#0" expanded="true" />
-                <element signature="e#2057#2247#0" expanded="true" />
-                <element signature="e#2246#2247#0" expanded="true" />
+                <element signature="e#867#1059#0" expanded="true" />
+                <element signature="e#1058#1059#0" expanded="true" />
+                <element signature="e#2135#2326#0" expanded="true" />
+                <element signature="e#2325#2326#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MongoSaver.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MongoSaver.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/project/MongoSaver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="15" column="97" lean-forward="false" selection-start-line="15" selection-start-column="97" selection-end-line="15" selection-end-column="97" />
+            <state relative-caret-position="168">
+              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,8 +123,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/example/project/Testing.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/wercker.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/project/MongoSaver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/project/EmailSender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/project/MongoSaver.java" />
       </list>
     </option>
   </component>
@@ -389,12 +389,12 @@
       <workItem from="1526460011851" duration="40000" />
       <workItem from="1526460193678" duration="711000" />
       <workItem from="1526464437909" duration="950000" />
-      <workItem from="1527667818685" duration="5576000" />
+      <workItem from="1527667818685" duration="5806000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17304000" />
+    <option name="totallyTimeSpent" value="17534000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -446,10 +446,10 @@
           <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#829#1020#0" expanded="true" />
-            <element signature="e#1019#1020#0" expanded="true" />
-            <element signature="e#2057#2247#0" expanded="true" />
-            <element signature="e#2246#2247#0" expanded="true" />
+            <element signature="e#867#1059#0" expanded="true" />
+            <element signature="e#1058#1059#0" expanded="true" />
+            <element signature="e#2135#2326#0" expanded="true" />
+            <element signature="e#2325#2326#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -486,10 +486,10 @@
           <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#829#1020#0" expanded="true" />
-            <element signature="e#1019#1020#0" expanded="true" />
-            <element signature="e#2057#2247#0" expanded="true" />
-            <element signature="e#2246#2247#0" expanded="true" />
+            <element signature="e#867#1059#0" expanded="true" />
+            <element signature="e#1058#1059#0" expanded="true" />
+            <element signature="e#2135#2326#0" expanded="true" />
+            <element signature="e#2325#2326#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -526,10 +526,10 @@
           <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#829#1020#0" expanded="true" />
-            <element signature="e#1019#1020#0" expanded="true" />
-            <element signature="e#2057#2247#0" expanded="true" />
-            <element signature="e#2246#2247#0" expanded="true" />
+            <element signature="e#867#1059#0" expanded="true" />
+            <element signature="e#1058#1059#0" expanded="true" />
+            <element signature="e#2135#2326#0" expanded="true" />
+            <element signature="e#2325#2326#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -566,10 +566,10 @@
           <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#829#1020#0" expanded="true" />
-            <element signature="e#1019#1020#0" expanded="true" />
-            <element signature="e#2057#2247#0" expanded="true" />
-            <element signature="e#2246#2247#0" expanded="true" />
+            <element signature="e#867#1059#0" expanded="true" />
+            <element signature="e#1058#1059#0" expanded="true" />
+            <element signature="e#2135#2326#0" expanded="true" />
+            <element signature="e#2325#2326#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -640,26 +640,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/project/MongoSaver.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/project/EmailSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="15" column="97" lean-forward="false" selection-start-line="15" selection-start-column="97" selection-end-line="15" selection-end-column="97" />
+        <state relative-caret-position="-129">
+          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#867#1059#0" expanded="true" />
+            <element signature="e#1058#1059#0" expanded="true" />
+            <element signature="e#2135#2326#0" expanded="true" />
+            <element signature="e#2325#2326#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/project/EmailSender.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/project/MongoSaver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="168">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#829#1020#0" expanded="true" />
-            <element signature="e#1019#1020#0" expanded="true" />
-            <element signature="e#2057#2247#0" expanded="true" />
-            <element signature="e#2246#2247#0" expanded="true" />
           </folding>
         </state>
       </provider>
