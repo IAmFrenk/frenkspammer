@@ -16,7 +16,7 @@ build:
                 - wercker/maven:
                         goals: install
                         cache_repo: true
-                        version: 3.5.2
+                        version: 3.5.3
 
 sonar:
 # Steps make up the actions in your pipeline
@@ -27,4 +27,4 @@ sonar:
                 - wercker/maven:
                         goals: clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar -Dmaven.test.failure.ignore=true -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=iamfrenk-github -Dsonar.login=e3e8aed8002c0ea08089a4026d53fe9513561376
                         cache_repo: true
-                        version: 3.5.2
+                        version: 3.5.3
