@@ -6,6 +6,7 @@ import com.mongodb.client.MongoDatabase;
 import org.bson.Document;
 
 import java.net.UnknownHostException;
+import java.util.logging.Logger;
 
 public class MongoSaver {
 	
@@ -31,7 +32,8 @@ public class MongoSaver {
 			        .append("asHtml", html);
 			c.insertOne(doc);
 		} catch (MongoException mongoException) {
-			System.out.println("XXXXXXXXXXXXXXXXXX ERROR WHILE SAVING TO MONGO XXXXXXXXXXXXXXXXXXXXXXXXXX");
+			Logger logger = Logger.getLogger(EmailSender.class.getName());
+			logger.config("XXXXXXXXXXXXXXXXXX ERROR WHILE SAVING TO MONGO XXXXXXXXXXXXXXXXXXXXXXXXXX");
 			mongoException.printStackTrace();
 			success = false;
 		}
@@ -41,9 +43,9 @@ public class MongoSaver {
 	}
 	
 	
-	public static void main(String ...args) throws UnknownHostException {
-		
-		System.out.println("test");
+	public static void main(String ...args) {
+		Logger logger = Logger.getLogger(EmailSender.class.getName());
+		logger.config("test");
 	}
 
 }
