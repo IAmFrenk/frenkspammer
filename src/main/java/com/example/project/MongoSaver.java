@@ -34,7 +34,7 @@ public class MongoSaver {
 		} catch (MongoException mongoException) {
 			Logger logger = Logger.getLogger(EmailSender.class.getName());
 			logger.config("XXXXXXXXXXXXXXXXXX ERROR WHILE SAVING TO MONGO XXXXXXXXXXXXXXXXXXXXXXXXXX");
-			mongoException.printStackTrace();
+			logger.config(mongoException.toString());
 			success = false;
 		}
 		
