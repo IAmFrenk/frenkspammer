@@ -24,14 +24,14 @@ public class EmailSender {
 		props.put("mail.smtp.auth", "true");
 
 		final String username = "ff74e8554cff2e";
-		final String password = "ab5e68d5c8a581";
+		final String testPwd = "ab5e68d5c8a581";
 
 		Session session = Session.getInstance(props,
 				  new javax.mail.Authenticator() {
 					@Override
 					protected PasswordAuthentication getPasswordAuthentication() {
 
-						return new PasswordAuthentication(username, password);
+						return new PasswordAuthentication(username, testPwd);
 					}
 				  });
 		try {
@@ -65,13 +65,13 @@ public class EmailSender {
 		props.put("mail.smtp.auth", "true");
 
 		final String username = "ff74e8554cff2e";
-		final String password = "ab5e68d5c8a581";
+		final String testPwd = "ab5e68d5c8a581";
 
 		Session session = Session.getInstance(props,
 				  new javax.mail.Authenticator() {
 					@Override
 					protected PasswordAuthentication getPasswordAuthentication() {
-						return new PasswordAuthentication(username, password);
+						return new PasswordAuthentication(username, testPwd);
 					}
 				  });
 		try {
