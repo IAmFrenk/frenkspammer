@@ -9,8 +9,6 @@ import java.util.logging.Logger;
 public class MongoSaver {
 	
 	public static boolean saveEmail(String to, String from, String subject, String text, Boolean html, String userName, String password) {
-//		String userName = "Frenk";
-//		String password = "123";
 		String database = "friendspammerdb";
 		
 		MongoCredential credential = MongoCredential.createCredential(userName, database, password.toCharArray());

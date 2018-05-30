@@ -23,9 +23,6 @@ public class EmailSender {
 		props.put("mail.smtp.port", "2525");
 		props.put("mail.smtp.auth", "true");
 
-//		final String username = "ff74e8554cff2e";
-//		final String testPwd = "ab5e68d5c8a581";
-
 		Session session = Session.getInstance(props,
 				  new javax.mail.Authenticator() {
 					@Override
@@ -63,9 +60,6 @@ public class EmailSender {
 		props.put("mail.smtp.host", "smtp.mailtrap.io");
 		props.put("mail.smtp.port", "2525");
 		props.put("mail.smtp.auth", "true");
-
-//		final String username = "ff74e8554cff2e";
-//		final String password = "ab5e68d5c8a581";
 
 		Session session = Session.getInstance(props,
 				  new javax.mail.Authenticator() {
